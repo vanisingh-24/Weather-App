@@ -6,6 +6,7 @@ var app = express();
 
 //Middleware
 app.use(express.static('public'));
+app.use(express.urlencoded({extended: true}));
 
 //Import Route
 const weatherRoute = require('./routes/weather');
