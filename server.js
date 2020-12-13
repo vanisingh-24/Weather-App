@@ -1,5 +1,5 @@
 var express = require('express');
-
+var PORT = process.env.PORT || 8000;
 var app = express();
 
 //Middleware
@@ -15,4 +15,4 @@ app.set('view engine', 'ejs');
 //Middleware route
 app.use('/',weatherRoute);
 
-app.listen(8000);
+app.listen(PORT);
