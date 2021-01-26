@@ -106,6 +106,12 @@ form input{
     font-weight: bold;
 }
 
+.github-corner{
+    position:absolute;
+    top:0px;
+    right: 0px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 500px){
     body{
